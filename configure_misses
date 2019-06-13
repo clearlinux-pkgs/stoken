@@ -1,0 +1,2 @@
+Configure miss: if libtomcrypt is usable
+Configure miss: whether libtomcrypt uses newer LTC_PKCS_1_V1_5 naming convention
