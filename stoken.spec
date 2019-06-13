@@ -4,12 +4,12 @@
 #
 Name     : stoken
 Version  : 0.92
-Release  : 1
+Release  : 2
 URL      : https://github.com/cernekee/stoken/archive/v0.92.tar.gz
 Source0  : https://github.com/cernekee/stoken/archive/v0.92.tar.gz
 Summary  : Software token
 Group    : Development/Tools
-License  : LGPL-2.1
+License  : BSD-3-Clause LGPL-2.1
 Requires: stoken-bin = %{version}-%{release}
 Requires: stoken-data = %{version}-%{release}
 Requires: stoken-lib = %{version}-%{release}
@@ -100,7 +100,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1560442397
+export SOURCE_DATE_EPOCH=1560442500
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -120,7 +120,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1560442397
+export SOURCE_DATE_EPOCH=1560442500
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/stoken
 cp COPYING.LIB %{buildroot}/usr/share/package-licenses/stoken/COPYING.LIB
