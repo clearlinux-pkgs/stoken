@@ -4,7 +4,7 @@
 #
 Name     : stoken
 Version  : 0.92
-Release  : 2
+Release  : 3
 URL      : https://github.com/cernekee/stoken/archive/v0.92.tar.gz
 Source0  : https://github.com/cernekee/stoken/archive/v0.92.tar.gz
 Summary  : Software token
